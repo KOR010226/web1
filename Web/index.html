@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>TOUKO's Website</title>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body style="background-color:rgb(153, 255, 255)">
+        <!--Home-->
+        <header>
+            <a href="#" class="logo">Portfolio</a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="menu" style="font-size:150%">
+                <li><a href="#home" onclick="toggleMenu();"><b>首頁</b></a></li>
+                <li><a href="#about" onclick="toggleMenu();"><b>關於</b></a></li>
+                <li><a href="#activities" onclick="toggleMenu();"><b>活動</b></a></li>
+                <li><a href="#experience" onclick="toggleMenu();"><b>經歷</b></a></li>
+                <li><a href="#help" onclick="toggleMenu();"><b>分享</b></a></li>
+                <li><a href="#contact" onclick="toggleMenu();"><b>聯絡</b></a></li>
+            </ul>
+        </header>
+        <section class="home" id="home">
+            <div class="textBx">
+                <h2>Hello World<br><span>首頁</span></h2>
+                <h3>這裡是首頁</h3>
+                <a href="#about" class="btn">關於我</a>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <!--about-->
+            <div class="heading">
+                <h1 style=font-size:50px;><b>關於我</b></h1>
+            </div>
+            <div class="content" >
+                <div class="contentBx w50">
+                    <h2 style="font-size:36px;"><b style="border: 3.5px outset rgb(249, 139, 29);">學歷</b></h2>
+                    <br>
+                    <b style="font-size:28px;">國立潮州高中114級 303</b>
+                    <p style="font-size:36px;"><br><b style="border: 3.5px outset rgb(189, 3, 87)">平日興趣</b></p>
+                    <br>
+                    <b style="font-size:28px;">看動漫、打音遊、寫程式或是運動</b>
+                    <p style="font-size:36px;"><br><b style="border: 3.5px outset rgb(41, 190, 240)">較常使用程式語言</b></p>
+                        <br>
+                        <ul> 
+                            <li style=font-size:28px;><b>C++</b></li>
+                            <li style=font-size:28px;><b>Python</b></li>
+                        </ul>
+                    <br><br>
+
+                    <p style=font-size:36px;><b style="border: 3.5px outset rgb(10, 156, 32)">自我介紹
+                    <br>
+                    </b></p>
+                    <p style="font-size:24px;"><b>我是來自台灣的高中生，喜好研究程式語言相關的東西，目前較專注在演算法與資料結構方面的理論，也會關注科技方面議題，例如:機器學習、網站開發...等等。
+                        最感興趣的文化是二次元文化，從高一開始接觸到現在，同時學到些許基礎的日文。我喜歡的運動是重量訓練及體能相關訓練，放學時常到學校重訓室進行訓練。
+                    </b></p>
+                        <br>
+                        <!--view more button-->
+                        <script>
+                            function myFunction() {
+                            var dots = document.getElementById("dots");
+                            var moreText = document.getElementById("more");
+                            var btnText = document.getElementById("myBtn");
+                            
+                            if (dots.style.display === "none") {
+                                dots.style.display = "inline";
+                                btnText.innerHTML = "Read more"; 
+                                moreText.style.display = "none";
+                            } else {
+                                dots.style.display = "none";
+                                btnText.innerHTML = "Read less"; 
+                                moreText.style.display = "inline";
+                            }
+                            }
+                            </script>
+                    <br><br>
+                    
+                        <ul>
+                            <p></p>
+                        </ul>
+                        </b>
+                    </p>
+                </div>
+            <div class="w50">
+                    <img  src="Tsubasa.jpg " class="img" width="450px" height="450px"><p><b style="color:rgba(182, 182, 161, 0.579);" >©Project シンフォギア</b></p>
+            </div>
+        </section>
+        <section class="activities" id="activities" style="background-color:rgb(153, 255, 255)">
+            <!--activities-->
+            <div class="heading.black" align="center">
+                <style>
+                    #more{display: none;}
+                </style>
+                <h2 ><b style="font-size:50px;">個人活動心得</b></h2>
+                <p><b style="font-size:36px;">參與活動的一些心得</b></p>
+                <br>
+                <button style="width:1000px;" class="reflection button"><a href="reflection/2023.7特選.html">
+                    <p style="font-size:40px;"><b>2023/7 特殊選才營隊心得</b></p></a></button>
+                <br><br><br><br>
+                <button style="width:1000px;" class="reflection button"><a href="reflection/2023.7jlpt.html">
+                    <p style="font-size:40px;"><b>2023/7 日檢心得</b></p></a></button>
+                <br><br><br><br>
+                <button style="width:1000px;" class="reflection button"><a href="reflection/2023.6apcs.html" >
+                    <p style="font-size:40px;"><b>2023/6 APCS檢測心得</b></p></a></button>
+                <br><br><br><br> 
+                
+                  <!--  next page button-->
+
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                
+                <h2>More</h2>
+                <br><br>
+                <a href="#" class="previous round">&#8249;</a>
+                &emsp;
+                <a href="#" class="next round">&#8250;</a>
+            
+            </div>
+            <div class="content">
+               
+            </div>
+        </section>
+           
+        <section class="experience" id="experience">
+            <!--experience-->
+            <div class="heading">
+                <h2><b style="font-size:50px;">個人經歷或作品</b></h2>
+                <br>
+                <button><p style="font-size:40px;" ><b style="border: 4px outset rgba(73, 66, 200, 0.916)">-2023.06.04-  參加2023/6 APCS檢測</b></p></button>
+                <br>
+                
+                <b style="font-size:24px;">檢測結果 : 觀念題3級分/實作題2級分</b>
+                <br><br>
+                <button><p style="font-size:40px;"><b style="border: 4px outset rgba(73, 66 ,200 , 0.916)">d</b></p></button>
+            </div>
+            <div class="content">
+                
+                </div>
+            </div>
+            <div class="heading">
+                <a href="#" class="btn">VIEW MORE</a>
+            </div>
+        </section>
+
+        <section class="help" id="help" style="background-color:rgb(153, 255, 255)">
+            <!--share-->
+            <div class="heading">
+                <h2><b style="font-size:50px;">分享區</b></h2>
+                <p style="font-size:36px;"><b>純分享或推薦</b></p>
+            </div>
+
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            
+            <style>
+                
+            </style>
+            <div class="content">
+            
+                <div class="testimonialBx">
+                    <button class="pillbutton"><a href="https://www.youtube.com/playlist?list=PLdPrx7oNxcmo0tKGvTHcmpLgKy4EYsWXx">
+                        <p style="font-size:40px;" ><b>日語歌曲分享(Youtube)</b></p>
+
+                        </a>                    
+                    </button>
+                    </a>
+            
+                </div>
+                <div class="testimonialBx">
+                    <button class="pillbutton"><a href="share/animeshare.html">
+                        <p style="font-size:40px;"><b>動漫推薦及分享</b></p>
+                    </a>
+                    </button>
+                    <p></p>
+            </div>
+                <div class="testimonialBx">
+                    <button class="pillbutton" ><a href="https://www.youtube.com/playlist?list=PLdPrx7oNxcmrHHXpYVDDBTnlgYq5w6q4z">
+                        <p style="font-size:40px;"><b>RIOT MUSIC歌單(Youtube)</b></p>
+                    </a>
+                    </button>
+                </div>
+                <div class="testimonialBx">
+                    <button class="pillbutton" ><a href="share/animeproblem.html">
+                        <p style="font-size:40px;"><b>動漫問答區</b></p>
+                    </a>
+                    </button>
+                </div>
+                <div class="testimonialBx">
+                    <button class="pillbutton" ><a href="share/programming.html">
+                        <p style="font-size:40px;"><b>適合新手的程式練習題</b></p>
+                    </a>
+                    </button>
+                </div>
+            
+        </section>
+
+        <section class="contact" id="contact" style="background-color:rgb(153, 255, 255)">
+            <!--contact-->
+            <div class="heading white">
+                <h2><b style="font-size:50px;">聯絡我</b></h2>
+                <p><b style="font-size:36px;">歡迎找我交流</b></p>
+            </div class="connectweb">
+            <a href="https://www.youtube.com/channel/UCLIdQz9cAcmlybXXeg6pISw"><img src="photohere/icon-youtube.png" width="150px" height="150px"></a>
+            &emsp;
+            <a href="https://github.com/KOR010226"><img src="photohere/github.png" width="150px" height="150px"></a>
+            &emsp;
+            <a href="https://www.facebook.com/profile.php?id=100093114202954"><img src="photohere/Facebook.png" width="150px" height="150px"></a>
+            &emsp;
+            <a href="https://twitter.com/kuo_0216"><img src="photohere/twitter.png" width="150px" height="150px"></a>
+            &emsp;
+            <a href="https://ithelp.ithome.com.tw/users/20160579"><img src="photohere/ithelp.png" width="200px" height="150px"></a>
+            &emsp;
+            <a href="https://space.bilibili.com/3494376523172041"><img src="photohere/bilibili.png" width="150px" height="150px"></a>
+            &emsp;
+            <a href="https://home.gamer.com.tw/profile/index.php?&owner=BHSN00004bd9"><img src="photohere/bahamut.png" width="150px" height="150px"></a>
+            &emsp;
+            <a href="discordapp.com/users/1056877079330832474"><img src="photohere/discord.png" width="150px" height="150px"></a>
+            <div class="content" >
+                <div class="contactInfo">
+                    
+                </div>
+                <div class="formBx" align="center">
+                    <form>
+                        <h3><b>請輸入您的個人訊息</b></h3>
+                        <input type="text" name="" placeholder="本名or暱稱">
+                        <input type="email" name="" placeholder="電子信箱(Email)">
+                        <textarea placeholder="內容"></textarea>
+                        <input type="submit" value="送出">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <div class="copyright">
+            <p>TOUKO no Website</p>
+        </div>
+        <script type="text/javascript">
+            window.addEventListener('scroll',function(){
+                var header = document.querySelector('header');
+                header.classList.toggle('sticky',window.scrollY > 0);
+            });
+
+            function toggleMenu(){
+                var menuToggle = document.querySelector('.toggle');
+                var menu = document.querySelector('.menu');
+                menuToggle.classList.toggle('active');
+                menu.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
